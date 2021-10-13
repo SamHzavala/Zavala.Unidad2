@@ -24,11 +24,11 @@ public class JRadioButton extends JFrame {
 	String[] VectorPreguntas = {"1.- A quien le decian 007: ", "2.- Callie es diminutivo de: ", 
 			"3.- Que personaje murio en la temporada 11 episodio 23: ", "4.- Cuantos hijos tiene meredith grey: ", 
 			"5.- Quien fue la persona de Meredith Grey: "};
-		int ContRespuestasBien = 0;
-		int ContQuiz = 0;
 	String[] VectorRespuestasCorrectas = {"George O'malley", "Calliope", "Derek Shepherd", "Tres Hijos", "Cristina Yang y Alex Karev"};
 	String[] VectorRespuestasIncorrectas1 = {"Alex Karev", "California", "Lexie Grey", "Dos Hijos", "Lexie Grey y Mark Sloan"};
 	String[] VectorRespuestasIncorrectas2 = {"Arizona Robbins", "Carolina", "Mark Sloan", "Cinco Hijos", "Maggie Pierce y Izzie Stevens"};
+	int ContRespuestasBien = 0;
+	int ContQuiz = 0;
 	private JLabel lblPregunta;
 
 	
@@ -95,8 +95,8 @@ public class JRadioButton extends JFrame {
 					lblPregunta.setText(VectorPreguntas[ContQuiz].toString());
 					rdbtnRespuesta1.setText(VectorRespuestasIncorrectas1[ContQuiz].toString());
 					rdbtnRespuesta2.setText(VectorRespuestasCorrectas[ContQuiz].toString());
-				rdbtnRespuesta3.setText(VectorRespuestasIncorrectas2[ContQuiz].toString());
-				;break;
+					rdbtnRespuesta3.setText(VectorRespuestasIncorrectas2[ContQuiz].toString());
+					;break;
 				case 1:
 					lblPregunta.setText(VectorPreguntas[ContQuiz].toString());
 					rdbtnRespuesta1.setText(VectorRespuestasIncorrectas1[ContQuiz].toString());
