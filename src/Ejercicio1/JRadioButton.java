@@ -55,14 +55,14 @@ public class JRadioButton extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		javax.swing.JRadioButton rdbtnRespuesta1 = new javax.swing.JRadioButton("George O'malley");
+		javax.swing.JRadioButton rdbtnRespuesta1 = new javax.swing.JRadioButton("Alex Karev");
 		rdbtnRespuesta1.setBackground(new Color(135, 206, 250));
 		rdbtnRespuesta1.setFont(new Font("Sitka Subheading", Font.BOLD, 16));
 		rdbtnRespuesta1.setForeground(new Color(128, 0, 0));
 		rdbtnRespuesta1.setBounds(47, 111, 353, 28);
 		contentPane.add(rdbtnRespuesta1);
 		
-		javax.swing.JRadioButton rdbtnRespuesta2 = new javax.swing.JRadioButton("Alex Karev");
+		javax.swing.JRadioButton rdbtnRespuesta2 = new javax.swing.JRadioButton("George O´malley");
 		rdbtnRespuesta2.setBackground(new Color(135, 206, 250));
 		rdbtnRespuesta2.setFont(new Font("Sitka Subheading", Font.BOLD, 16));
 		rdbtnRespuesta2.setForeground(new Color(128, 0, 0));
